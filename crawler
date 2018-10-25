@@ -1,0 +1,55 @@
+import wikipedia
+
+class Type:
+    attributes = []
+    def __init__(self, att):
+        self.attributes = att
+    def getType(self):
+        return self.attributes
+
+def main():
+    file_name = raw_input("What's the file with the 'types'? ")
+    with open(file_name, 'r') as f:
+        temp = f.readlines()
+        temp = map(int, temp)
+        f.close()
+    t1 = Type(temp)
+    topic = raw_input("What are you studying?? ")
+    findSites(topic, t1)
+
+def findSites(topic, typ): ##yoooo (is the actual webcrawler)
+    file_name = topic + ".txt"
+    if typ.getType()[1] == 1:
+        crawlText(topic, file_name) #(+ some other ones)
+    if typ.getType()[0] == 1:
+        crawlVideo(topic, file_name)
+
+def crawlText(topic, file_name):
+    with open(file_name, 'a') as f:
+        f.write("TEXT\n")
+        f.close()
+    if int(raw_input("do you like wikipedia? 1 for yes, 0 for no ")) == 1:
+        crawlWiki(topic, file_name)
+
+def crawlVideo(topic, file_name):
+    with open(file_name, 'a') as f:
+        f.write("VIDEO\n")
+        f.close()
+    if int(raw_input("do you like youtube? 1 for yes, 0 for no ")) == 1:
+        crawlYouTube(topic, file_name)
+
+def crawlWiki(topic, file_name):
+    temp = wikipedia.page(topic)
+    #temp.set_lang("simple")
+    with open(file_name, 'a') as f:
+        print (temp.summary)
+        f.write("WIKIPEDIA\n")
+        f.write(temp.summary) #might wanna limit to a couple of sentences
+        f.write('\n')
+        f.write(temp.url + '\n')
+        f.close()
+
+def crawlYouTube(topic, file_name):
+
+    print("not done boi")
+if __name__ == "__main__": main()
