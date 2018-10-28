@@ -1,3 +1,5 @@
+//a cool web crawler made & abandoned during HackTJ 2018
+
 import wikipedia
 
 class Type:
