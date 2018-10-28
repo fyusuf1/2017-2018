@@ -1,6 +1,6 @@
 ID TYPE [NAME] [DESCRIPTION] HP_BOOST ATK_BOOST DEF_BOOST BASE_COST
 0/ 0/ [Test]/ [First item, yay!!!]/ 10/ null/ null/ 2
 1/ 0/ [Hello]/ [Second item, haha]/ 10/ null/ null/ 2
-2/ 0/ [Toodles]/ [HAHAHHAHAH]/ 10/ null/ null/ 2
+2/ 0/ [Toodles]/ [wowza]/ 10/ null/ null/ 2
 3/ 0/ [wowoie]/ [>:')]/ -2/ null/ null/ 3
-4/ 0/ [POOP]/ [Eat it & see what happens]/ -100/ null/ null/ -100
+4/ 0/ [???]/ [hmmmmm]/ -100/ null/ null/ -100
