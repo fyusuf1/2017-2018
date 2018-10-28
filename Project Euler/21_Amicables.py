@@ -1,3 +1,6 @@
+#Sahra Yusuf//fsyusuf1@gmail.com//github.com/fyusuf1
+#Counts pairs of amicable numbers under a certain (provided) maximum
+
 import math
 
 def find_divisors(num):
