@@ -1,5 +1,7 @@
 #Sahra Yusuf 2018
 #github.com/fyusuf1 // fsyusuf1@gmail.com
+#Finds number of semiprimes (numbers with exactly two prime factors) under a certain number; challenge provided 100,000,000
+#TODO: Fix runtime, took way too long to run... changing to xrange isn't enough
 
 import math
 
