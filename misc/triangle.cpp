@@ -1,4 +1,5 @@
-//Sahra Yusuf/fsyusuf1@gmail.com/2017
+//SY 2017
+//github.com/magicake
 #include <iostream>
 #include <fstream>
 #include <stdlib.h>
