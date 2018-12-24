@@ -1,4 +1,5 @@
-#Sahra Yusuf//fsyusuf1@gmail.com//github.com/fyusuf1
+#SY 2018
+#github.com/apple-polestar 
 #Counts pairs of amicable numbers under a certain (provided) maximum
 
 import math
