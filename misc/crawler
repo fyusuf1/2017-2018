@@ -19,7 +19,7 @@ def main():
     topic = raw_input("What are you studying?? ")
     findSites(topic, t1)
 
-def findSites(topic, typ): ##yoooo (is the actual webcrawler)
+def findSites(topic, typ): ##wowza (is the actual webcrawler)
     file_name = topic + ".txt"
     if typ.getType()[1] == 1:
         crawlText(topic, file_name) #(+ some other ones)
@@ -53,5 +53,5 @@ def crawlWiki(topic, file_name):
 
 def crawlYouTube(topic, file_name):
 
-    print("not done boi")
+    print("not done, dude")
 if __name__ == "__main__": main()
