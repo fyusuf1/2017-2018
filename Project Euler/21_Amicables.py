@@ -1,5 +1,5 @@
 #SY 2018
-#github.com/apple-polestar 
+#github.com/magicake
 #Counts pairs of amicable numbers under a certain (provided) maximum
 
 import math
