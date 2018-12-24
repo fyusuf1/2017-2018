@@ -1,5 +1,5 @@
-#Sahra Yusuf 2018
-#github.com/fyusuf1 // fsyusuf1@gmail.com
+#SY 2018
+#github.com/apple-polestar 
 #Finds number with longest cycle of repeating decimals (regarding its reciprocal)
 
 import math
