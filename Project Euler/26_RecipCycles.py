@@ -1,5 +1,5 @@
 #SY 2018
-#github.com/apple-polestar 
+#github.com/magicake
 #Finds number with longest cycle of repeating decimals (regarding its reciprocal)
 
 import math
